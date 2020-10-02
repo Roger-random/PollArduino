@@ -24,10 +24,6 @@ void loop() {
     {
       Serial.println("VER TESTSTUB 1.0");
     }
-    else if (inString.equals("RST\r"))
-    {
-      Serial.println("RST OK");
-    }
     else if (inString.startsWith("MVC"))
     {
       // NOTE: pin specifiers are ignored, not checked.
